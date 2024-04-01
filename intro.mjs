@@ -108,7 +108,7 @@ const userLink2 = await page.evaluate(
       ?.href
 );
 
-const userLin3 = await page.evaluate(
+const userLink3 = await page.evaluate(
   () =>
     document.querySelector(".js-profile-editable-area li:nth-child(8) > a")
       ?.href
@@ -125,7 +125,7 @@ const allInformation = [
     Twitter: userTwitter,
     Linkedin: userLinkedin,
     UserLink2: userLink2,
-    UserLink3: userLin3,
+    UserLink3: userLink3,
   },
 ];
 
